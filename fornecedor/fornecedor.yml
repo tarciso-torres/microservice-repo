@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'fornecedor'
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fornecedor
+    username: postgres
+    password: 1234
